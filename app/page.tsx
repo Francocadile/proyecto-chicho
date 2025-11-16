@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import ObjetivosSection from "@/components/ObjetivosSection";
 import TrabajoSection from "@/components/TrabajoSection";
 import ModeloSection from "@/components/ModeloSection";
+import PorQueSection from "@/components/PorQueSection";
 import PrincipiosSection from "@/components/PrincipiosSection";
 import TrayectoriaSection from "@/components/TrayectoriaSection";
 import MisionSection from "@/components/MisionSection";
@@ -18,6 +19,7 @@ export default function Home() {
           <ObjetivosSection />
           <TrabajoSection />
           <ModeloSection />
+          <PorQueSection />
           <PrincipiosSection />
           <TrayectoriaSection />
           <MisionSection />

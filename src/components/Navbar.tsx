@@ -3,6 +3,7 @@ const links = [
 	{ href: "#objetivos", label: "Objetivos" },
 	{ href: "#metodologia", label: "Metodología" },
 	{ href: "#modelo", label: "Modelo" },
+	{ href: "#porque", label: "Por qué nosotros" },
 	{ href: "#principios", label: "Principios" },
 	{ href: "#trayectoria", label: "Trayectoria" },
 	{ href: "#contacto", label: "Contacto" },
