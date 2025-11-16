@@ -10,7 +10,18 @@ export default function ContactoSection() {
 				podés solicitar una reunión o pedir el dossier completo del Proyecto Integral Futbolístico a
 				través de este formulario.
 			</p>
-			<form className="grid gap-4 text-sm text-slate-50 sm:grid-cols-2">
+			<form
+				action="https://formsubmit.co/franco.cadile@gmail.com"
+				method="POST"
+				className="grid gap-4 text-sm text-slate-50 sm:grid-cols-2"
+			>
+				<input
+					type="hidden"
+					name="_subject"
+					value="Nuevo contacto desde Proyecto Integral Futbolístico"
+				/>
+				<input type="hidden" name="_template" value="table" />
+				<input type="hidden" name="_captcha" value="false" />
 				<div className="flex flex-col gap-1 sm:col-span-1">
 					<label htmlFor="nombre" className="text-xs font-semibold uppercase tracking-wide text-slate-400">
 						Nombre
@@ -19,6 +30,7 @@ export default function ContactoSection() {
 						id="nombre"
 						name="nombre"
 						type="text"
+						required
 						className="rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-slate-500 focus:border-slate-400"
 						placeholder="Nombre y apellido"
 					/>
@@ -31,6 +43,7 @@ export default function ContactoSection() {
 						id="club"
 						name="club"
 						type="text"
+						required
 						className="rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-slate-500 focus:border-slate-400"
 						placeholder="Nombre del club"
 					/>
@@ -43,6 +56,7 @@ export default function ContactoSection() {
 						id="pais"
 						name="pais"
 						type="text"
+						required
 						className="rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-slate-500 focus:border-slate-400"
 						placeholder="País"
 					/>
@@ -55,6 +69,7 @@ export default function ContactoSection() {
 						id="email"
 						name="email"
 						type="email"
+						required
 						className="rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-slate-500 focus:border-slate-400"
 						placeholder="tu@email.com"
 					/>
@@ -67,6 +82,7 @@ export default function ContactoSection() {
 						id="mensaje"
 						name="mensaje"
 						rows={4}
+						required
 						className="rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-slate-500 focus:border-slate-400"
 						placeholder="Contanos brevemente qué necesitás..."
 					/>
