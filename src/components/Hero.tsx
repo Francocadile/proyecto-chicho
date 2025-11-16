@@ -1,0 +1,30 @@
+export default function Hero() {
+	return (
+		<section className="pt-10 sm:pt-16">
+			<div className="space-y-8 text-center sm:text-left">
+				<h1 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl md:text-5xl">
+					Proyecto Integral Futbolístico
+				</h1>
+				<p className="max-w-2xl text-sm text-slate-300 sm:text-base">
+					Liderado por <span className="font-semibold text-slate-50">@chichovogliotti</span> y{" "}
+					<span className="font-semibold text-slate-50">@juanleandro1985</span>, enfocado en el desarrollo
+					integral de equipos y futbolistas.
+				</p>
+				<div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-start">
+					<a
+						href="#modelo"
+						className="inline-flex items-center justify-center rounded-full bg-slate-50 px-6 py-2 text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-slate-200"
+					>
+						Ver modelo de juego
+					</a>
+					<a
+						href="#contacto"
+						className="inline-flex items-center justify-center rounded-full border border-slate-500 px-6 py-2 text-sm font-semibold text-slate-50 transition hover:border-slate-300 hover:bg-slate-900"
+					>
+						Contacto
+					</a>
+				</div>
+			</div>
+		</section>
+	);
+}
