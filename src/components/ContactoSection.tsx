@@ -6,8 +6,9 @@ export default function ContactoSection() {
 		>
 			<h2 className="text-xl font-semibold text-slate-50">Contacto</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Para coordinar reuniones, charlas o proyectos, podés completar el formulario o escribirnos en
-				nuestras redes.
+				Presidente, director deportivo o gerente de fútbol: si querés conocer en detalle la propuesta,
+				podés solicitar una reunión o pedir el dossier completo del Proyecto Integral Futbolístico a
+				través de este formulario.
 			</p>
 			<form className="grid gap-4 text-sm text-slate-50 sm:grid-cols-2">
 				<div className="flex flex-col gap-1 sm:col-span-1">

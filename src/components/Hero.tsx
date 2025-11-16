@@ -6,9 +6,13 @@ export default function Hero() {
 					Proyecto Integral Futbolístico
 				</h1>
 				<p className="max-w-2xl text-sm text-slate-300 sm:text-base">
-					Liderado por <span className="font-semibold text-slate-50">@chichovogliotti</span> y{" "}
-					<span className="font-semibold text-slate-50">@juanleandro1985</span>, enfocado en el desarrollo
-					integral de equipos y futbolistas.
+					Propuesta integral de cuerpo técnico para clubes profesionales, liderada por{" "}
+					<span className="font-semibold text-slate-50">@chichovogliotti</span> y{" "}
+					<span className="font-semibold text-slate-50">@juanleandro1985</span>.
+				</p>
+				<p className="max-w-2xl text-sm text-slate-300 sm:text-base">
+					Trabajamos sobre una identidad de juego clara, la mejora diaria del futbolista y una
+					competitividad sostenible en torneos nacionales e internacionales.
 				</p>
 				<div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-start">
 					<a
@@ -21,7 +25,7 @@ export default function Hero() {
 						href="#contacto"
 						className="inline-flex items-center justify-center rounded-full border border-slate-500 px-6 py-2 text-sm font-semibold text-slate-50 transition hover:border-slate-300 hover:bg-slate-900"
 					>
-						Contacto
+						Agenda una reunión
 					</a>
 				</div>
 			</div>

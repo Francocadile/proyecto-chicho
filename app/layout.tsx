@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Proyecto Integral Futbolístico - Chicho Vogliotti",
+  title: "Proyecto Integral Futbolístico - Juan Chicho Vogliotti",
   description:
     "Modelo de juego, metodología, análisis de rivales y trayectoria de @chichovogliotti y @juanleandro1985.",
 };
