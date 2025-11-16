@@ -1,6 +1,6 @@
 export default function ObjetivosSection() {
 	return (
-		<section id="objetivos" className="space-y-6 border-t border-slate-800 pt-10">
+		<section id="objetivos" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
 			<h2 className="text-xl font-semibold text-slate-50">Objetivos del proyecto</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
 				Qué ofrecemos al club: una estructura de trabajo clara para ordenar el día a día del equipo en

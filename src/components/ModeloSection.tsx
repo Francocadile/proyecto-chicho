@@ -1,6 +1,6 @@
 export default function ModeloSection() {
 	return (
-		<section id="modelo" className="space-y-6 border-t border-slate-800 pt-10">
+		<section id="modelo" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
 			<h2 className="text-xl font-semibold text-slate-50">Nuestro modelo de juego</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
 				Buscamos un equipo protagonista, que sepa qué hacer con y sin balón y que pueda adaptarse al rival,

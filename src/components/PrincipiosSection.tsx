@@ -1,6 +1,6 @@
 export default function PrincipiosSection() {
 	return (
-		<section className="space-y-4 border-t border-slate-800 pt-10" id="principios">
+		<section className="space-y-4 border-t border-slate-800 py-16 md:py-20" id="principios">
 			<h2 className="text-xl font-semibold text-slate-50">Nuestros principios</h2>
 			<ul className="list-disc space-y-2 pl-5 text-sm text-slate-300 sm:text-base">
 				<li>El esfuerzo no se negocia: la intensidad y la entrega son la base de todo.</li>

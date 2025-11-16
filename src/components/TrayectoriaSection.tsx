@@ -1,6 +1,6 @@
 export default function TrayectoriaSection() {
 	return (
-		<section id="trayectoria" className="space-y-6 border-t border-slate-800 pt-10">
+		<section id="trayectoria" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
 			<h2 className="text-xl font-semibold text-slate-50">Trayectoria</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
 				El proyecto se nutre de la experiencia acumulada en diferentes contextos competitivos: formación

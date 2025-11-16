@@ -2,7 +2,7 @@ export default function ContactoSection() {
 	return (
 		<section
 			id="contacto"
-			className="space-y-6 border-t border-slate-800 pt-10 pb-8"
+			className="space-y-6 border-t border-slate-800 py-16 md:py-20"
 		>
 			<h2 className="text-xl font-semibold text-slate-50">Contacto</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">

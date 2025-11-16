@@ -11,17 +11,19 @@ import ContactoSection from "@/components/ContactoSection";
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50">
-      <Navbar />
-      <main className="mx-auto flex min-h-screen max-w-5xl flex-col gap-16 px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-        <Hero />
-        <ObjetivosSection />
-        <TrabajoSection />
-        <ModeloSection />
-        <PrincipiosSection />
-        <TrayectoriaSection />
-        <MisionSection />
-        <ContactoSection />
-      </main>
+      <div className="max-w-5xl mx-auto px-4">
+        <Navbar />
+        <main className="flex min-h-screen flex-col gap-16 pb-16 pt-8 sm:px-2 lg:px-4">
+          <Hero />
+          <ObjetivosSection />
+          <TrabajoSection />
+          <ModeloSection />
+          <PrincipiosSection />
+          <TrayectoriaSection />
+          <MisionSection />
+          <ContactoSection />
+        </main>
+      </div>
     </div>
   );
 }
