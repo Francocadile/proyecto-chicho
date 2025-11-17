@@ -1,16 +1,22 @@
 export default function TrabajoSection() {
 	return (
 		<section id="metodologia" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
-			<h2 className="text-xl font-semibold text-slate-50">Metodología de trabajo</h2>
+			<h2 className="text-xl font-semibold text-slate-50">Mi forma de entrenar</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Trabajamos con una metodología integrada: en cada sesión se entrenan al mismo tiempo lo técnico,
-				lo táctico y lo físico, para que el jugador practique situaciones reales de partido y no
-				ejercicios aislados.
+				Baso mi modelo de entrenamiento en una metodología integrada estructural, donde en una misma sesión
+				trabajamos las diferentes situaciones del juego: lo técnico, lo táctico, lo físico y lo psicológico.
+				Busco que el jugador entrene siempre en un contexto lo más parecido posible a lo que se encontrará en
+				la competencia.
 			</p>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Cada tarea está conectada directamente con el modelo de juego del equipo y con el nivel de la
-				liga donde compite el club. Además, realizamos un seguimiento y evaluación semanal para ajustar
-				carga, contenidos y objetivos según la respuesta del plantel.
+				Cada tarea que diseño tiene una relación directa con el modelo de juego: no se trata de ejercicios
+				aisolados, sino de propuestas que conectan con cómo queremos atacar, defender y transitar entre fases.
+				De esta forma, el entrenamiento y el partido hablan el mismo idioma.
+			</p>
+			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
+				Planifico la semana como un todo coherente (microciclo), para que ninguna de estas dimensiones quede
+				fuera: carga física, contenidos tácticos, aspectos técnicos y la parte mental del futbolista. El
+				objetivo es que el equipo llegue preparado integralmente a la competencia.
 			</p>
 		</section>
 	);
