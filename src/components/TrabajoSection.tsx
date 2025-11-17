@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function TrabajoSection() {
 	return (
 		<section id="metodologia" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
-			<div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
-				<div className="space-y-4 md:max-w-xl">
+			<div className="grid gap-8 md:grid-cols-2 md:items-center">
+				<div className="order-2 space-y-4 md:order-1">
 					<h2 className="text-xl font-semibold text-slate-50">Mi forma de entrenar</h2>
 					<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
 						Baso mi modelo de entrenamiento en una metodología integrada estructural, donde en una misma sesión
@@ -23,13 +23,15 @@ export default function TrabajoSection() {
 						objetivo es que el equipo llegue preparado integralmente a la competencia.
 					</p>
 				</div>
-				<div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl border border-slate-800 bg-slate-900 md:max-w-sm">
-					<Image
-						src="/chicho/Chicho 2.jpg"
-						alt="Entrenamiento de campo dirigido por Juan Pablo 'Chicho' Vogliotti"
-						fill
-						className="object-cover"
-					/>
+				<div className="order-1 md:order-2">
+					<div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+						<Image
+							src="/chicho/chicho 2.JPG"
+							alt="Entrenamiento de campo dirigido por Juan Pablo 'Chicho' Vogliotti"
+							fill
+							className="object-cover"
+						/>
+					</div>
 				</div>
 			</div>
 		</section>
