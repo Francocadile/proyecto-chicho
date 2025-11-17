@@ -1,7 +1,10 @@
+import Image from "next/image";
+
 export default function Hero() {
 	return (
 		<section className="pt-10 sm:pt-16">
-				<div className="space-y-8 text-center sm:text-left">
+			<div className="flex flex-col items-center gap-10 sm:flex-row sm:items-start sm:justify-between">
+				<div className="space-y-8 text-center sm:max-w-xl sm:text-left">
 					<p className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-400">
 						Presentación oficial
 					</p>
@@ -31,6 +34,16 @@ export default function Hero() {
 						</a>
 					</div>
 				</div>
+				<div className="relative w-full max-w-sm aspect-[3/4] overflow-hidden rounded-2xl border border-slate-800 bg-slate-900">
+					<Image
+						src="/chicho/Chicho 1.jpg"
+						alt="Juan Pablo 'Chicho' Vogliotti en el campo de juego"
+						fill
+						className="object-cover"
+						priority
+					/>
+				</div>
+			</div>
 		</section>
 	);
 }
