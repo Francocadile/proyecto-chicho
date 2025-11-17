@@ -35,14 +35,8 @@ export default function Hero() {
 					</div>
 				</div>
 				<div className="order-1 w-full sm:order-2 sm:max-w-xs">
-					<div className="relative w-full max-w-sm aspect-[3/4] overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 mx-auto">
-						<Image
-							src="/chicho/chicho 1.JPG"
-							alt="Juan Pablo 'Chicho' Vogliotti en el campo de juego"
-							fill
-							className="object-cover"
-							priority
-						/>
+					<div className="relative w-full max-w-sm aspect-[3/4] overflow-hidden rounded-2xl border border-slate-800 bg-slate-900">
+						<Image src="/chicho/chicho1.jpg" alt="Chicho Vogliotti" fill className="object-cover" />
 					</div>
 				</div>
 			</div>
