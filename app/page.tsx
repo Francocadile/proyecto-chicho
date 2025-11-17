@@ -8,6 +8,7 @@ import PrincipiosSection from "@/components/PrincipiosSection";
 import TrayectoriaSection from "@/components/TrayectoriaSection";
 import MisionSection from "@/components/MisionSection";
 import ContactoSection from "@/components/ContactoSection";
+import CapacitacionSection from "@/components/CapacitacionSection";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <TrayectoriaSection />
           <MisionSection />
           <ContactoSection />
+          <CapacitacionSection />
         </main>
       </div>
     </div>
