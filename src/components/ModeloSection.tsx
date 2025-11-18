@@ -5,12 +5,12 @@ export default function ModeloSection() {
 		<section id="modelo" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
 			<div className="grid md:grid-cols-2 md:gap-12 items-center">
 				<div className="mb-6 md:mb-0 h-full">
-					<div className="relative w-full h-full aspect-[21/9] overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+					<div className="relative w-full h-full aspect-[4/5] sm:aspect-[16/9] overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
 						<Image
 							src="/chicho/chicho3.jpg"
 							alt="Chicho Vogliotti dirigiendo"
 							fill
-							className="object-cover object-[60%_center]"
+							className="object-cover object-[50%_20%] sm:object-[60%_center]"
 						/>
 					</div>
 				</div>
