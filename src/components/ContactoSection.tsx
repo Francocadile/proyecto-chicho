@@ -5,11 +5,6 @@ export default function ContactoSection() {
 			className="space-y-6 border-t border-slate-800 py-16 md:py-20"
 		>
 			<h2 className="text-xl font-semibold text-slate-50">Contacto</h2>
-			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Presidente, director deportivo o gerente de fútbol: si querés conocer en detalle la propuesta,
-				podés solicitar una reunión o pedir el dossier completo del Proyecto Integral Futbolístico a
-				través de este formulario.
-			</p>
 			<form
 				action="https://formsubmit.co/franco.cadile@gmail.com"
 				method="POST"
@@ -96,24 +91,6 @@ export default function ContactoSection() {
 					</button>
 				</div>
 			</form>
-			<div className="flex flex-wrap gap-4 text-sm text-slate-300">
-				<a
-					href="https://www.instagram.com/chichovogliotti"
-					target="_blank"
-					rel="noreferrer"
-					className="rounded-full border border-slate-700 px-4 py-2 hover:border-slate-400 hover:text-slate-50"
-				>
-					@chichovogliotti
-				</a>
-				<a
-					href="https://www.instagram.com/juanleandro1985"
-					target="_blank"
-					rel="noreferrer"
-					className="rounded-full border border-slate-700 px-4 py-2 hover:border-slate-400 hover:text-slate-50"
-				>
-					@juanleandro1985
-				</a>
-			</div>
 		</section>
 	);
 }

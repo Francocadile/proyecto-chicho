@@ -3,48 +3,48 @@ export default function PlanificacionSemanalSection() {
     {
       label: "MD+1",
       titulo: "Recuperación y reequilibrio",
-      objetivo: "Favorecer la recuperación física y mental del plantel después del partido.",
+      objetivo: "Recuperar al plantel a nivel físico y mental luego del partido.",
       contenidos:
-        "Tareas regenerativas, movilidad, trabajo personalizado con no convocados, descarga general.",
+        "Tareas regenerativas, movilidad y descarga; trabajo específico con no convocados.",
     },
     {
       label: "MD+2",
       titulo: "Análisis y complementarios",
       objetivo:
-        "Profundizar en el análisis del partido anterior y reequilibrar aspectos individuales o por línea.",
+        "Analizar el partido anterior y equilibrar cargas individuales y por líneas de juego.",
       contenidos:
-        "Video, correcciones específicas, fuerza preventiva, tareas técnicas y tácticas individualizadas.",
+        "Video, correcciones puntuales, fuerza preventiva y tareas técnico-tácticas individualizadas.",
     },
     {
       label: "MD+3",
       titulo: "Transición hacia la nueva semana",
       objetivo:
-        "Cerrar el partido anterior y conectar con los objetivos de la jornada siguiente.",
+        "Cerrar definitivamente el partido anterior y abrir la preparación del siguiente rival.",
       contenidos:
-        "Reuniones de staff, definición del plan de rival, planificación de cargas y prioridades de campo.",
+        "Reuniones de staff, plan de rival, definición de cargas y prioridades de campo.",
     },
     {
       label: "MD-3",
       titulo: "Base colectiva del plan semanal",
       objetivo:
-        "Construir los principios del plan semanal con carga táctica y física media-alta.",
+        "Instalar los principios colectivos del plan de partido con carga media-alta.",
       contenidos:
-        "Bloques de posesión y progresión, comportamientos por líneas, conceptos colectivos amplios.",
+        "Posesión y progresión, comportamientos por líneas y conceptos colectivos amplios.",
     },
     {
       label: "MD-2",
       titulo: "Ajustes por líneas y sectores",
       objetivo:
-        "Afinar relaciones entre sectores según las necesidades del rival y del plan de partido.",
+        "Ajustar relaciones entre zonas según el rival y el plan definido.",
       contenidos:
-        "Estructuras funcionales, coordinación entre zonas, correcciones específicas.",
+        "Estructuras funcionales, coordinación entre sectores y correcciones específicas.",
     },
     {
       label: "MD-1",
       titulo: "Velocidad, coordinación y detalles finales",
       objetivo: "Llegar al partido con claridad de idea y sensaciones de frescura.",
       contenidos:
-        "Alta intensidad corta, finalizaciones, balón parado, ajustes defensivos y ofensivos.",
+        "Alta intensidad corta, finalizaciones, balón parado y ajustes defensivos/ofensivos.",
     },
     {
       label: "MD",
@@ -52,7 +52,7 @@ export default function PlanificacionSemanalSection() {
       objetivo:
         "Aplicar nuestra identidad de juego y ejecutar el plan preparado para el rival.",
       contenidos:
-        "Lectura de momentos del partido, gestión de esfuerzos, correcciones en vivo.",
+        "Lectura de momentos del partido, gestión de esfuerzos y correcciones en vivo.",
     },
   ];
 

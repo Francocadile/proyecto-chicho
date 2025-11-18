@@ -3,12 +3,12 @@ import Hero from "@/components/Hero";
 import ObjetivosSection from "@/components/ObjetivosSection";
 import TrabajoSection from "@/components/TrabajoSection";
 import ModeloSection from "@/components/ModeloSection";
+import SesionesEntrenamientoSection from "@/components/SesionesEntrenamientoSection";
 import PorQueSection from "@/components/PorQueSection";
 import PrincipiosSection from "@/components/PrincipiosSection";
 import TrayectoriaSection from "@/components/TrayectoriaSection";
 import MisionSection from "@/components/MisionSection";
 import ContactoSection from "@/components/ContactoSection";
-import CapacitacionSection from "@/components/CapacitacionSection";
 
 export default function Home() {
   return (
@@ -19,13 +19,13 @@ export default function Home() {
           <Hero />
           <ObjetivosSection />
           <TrabajoSection />
+          <SesionesEntrenamientoSection />
           <ModeloSection />
           <PorQueSection />
           <PrincipiosSection />
           <TrayectoriaSection />
           <MisionSection />
           <ContactoSection />
-          <CapacitacionSection />
         </main>
       </div>
     </div>
