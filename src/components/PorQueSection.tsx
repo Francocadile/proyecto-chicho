@@ -51,7 +51,7 @@ export default function PorQueSection() {
 							src="/chicho/chicho10.jpg"
 							alt="Cuerpo técnico trabajando en campo"
 							fill
-							className="object-cover object-[10%_center] md:object-center"
+							className="object-cover object-[0%_center] md:object-center"
 						/>
 					</div>
 				</div>
