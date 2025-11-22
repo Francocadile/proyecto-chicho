@@ -24,12 +24,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body
-	  className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-slate-50 font-sans text-sm md:text-base`}
-	  >
-	  {children}
-	  </body>
-    </html>
+  <html lang="es">
+    <head>
+    <link rel="icon" href="/chicho/chicho11.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="/chicho/chicho11.jpg" />
+    </head>
+    <body
+    className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-slate-50 font-sans text-sm md:text-base`}
+    >
+    {children}
+    </body>
+  </html>
   );
 }
