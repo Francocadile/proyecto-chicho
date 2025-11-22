@@ -16,6 +16,23 @@ export default function ObjetivosSection() {
 					<li>Instalar una mentalidad competitiva, con foco en la mejora diaria en entrenamiento y en partido.</li>
 				</ul>
 			</div>
+			<div className="space-y-3">
+				<h3 className="text-lg font-semibold text-slate-50">Video: objetivos del proyecto</h3>
+				<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
+					En este video explico en primera persona los objetivos y la filosofía que sustentan este proyecto integral
+					desde mi mirada como entrenador.
+				</p>
+				<div className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900 pt-[56.25%]">
+					<iframe
+						title="Video sobre los objetivos del proyecto"
+						src="https://www.youtube.com/embed/qcB9qLSU9QI"
+						className="absolute inset-0 h-full w-full"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerPolicy="strict-origin-when-cross-origin"
+						allowFullScreen
+					/>
+				</div>
+			</div>
 		</section>
 	);
 }
