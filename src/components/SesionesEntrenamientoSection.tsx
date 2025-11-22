@@ -20,14 +20,15 @@ export default function SesionesEntrenamientoSection() {
       <div className="space-y-8">
         {/* Tarea 1 - Progresión por zona */}
         <article className="flex flex-col gap-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-6 md:flex-row md:p-8">
-          <div className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-black md:w-1/2 aspect-[4/3]">
-            <Image
-		      src="/entrenamientos/entrenamiento1.png"
+    <div className="w-full md:w-1/2 flex justify-center items-center">
+      <Image
+          src="/entrenamientos/entrenamiento1.png"
               alt="Ejercicio de progresión por zonas"
-              fill
-	          className="object-cover"
-            />
-          </div>
+              width={900}
+              height={600}
+            className="w-full h-auto rounded-xl border border-slate-800 bg-black object-contain"
+      />
+    </div>
 
           <div className="flex-1 space-y-4">
             <div className="space-y-2">
@@ -111,12 +112,13 @@ export default function SesionesEntrenamientoSection() {
 
         {/* Tarea 2 - Posesiones / presiones */}
         <article className="flex flex-col gap-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-6 md:flex-row md:p-8">
-          <div className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-black md:w-1/2 aspect-[4/3]">
+          <div className="w-full md:w-1/2 flex justify-center items-center">
             <Image
 		      src="/entrenamientos/entrenamiento2.png"
               alt="Ejercicio de posesiones y presiones"
-              fill
-	          className="object-cover"
+              width={900}
+              height={600}
+	          className="w-full h-auto rounded-xl border border-slate-800 bg-black object-contain"
             />
           </div>
 
@@ -201,12 +203,13 @@ export default function SesionesEntrenamientoSection() {
 
         {/* Tarea 3 - 11 vs 11 (carriles centrales / laterales / progresión) */}
         <article className="flex flex-col gap-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-6 md:flex-row md:p-8">
-          <div className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-black md:w-1/2 aspect-[4/3]">
+          <div className="w-full md:w-1/2 flex justify-center items-center">
             <Image
               src="/entrenamientos/entrenamiento3.png"
               alt="Ejercicio 11 vs 11 – progresión por carriles"
-              fill
-              className="object-cover"
+              width={900}
+              height={600}
+              className="w-full h-auto rounded-xl border border-slate-800 bg-black object-contain"
             />
           </div>
 
@@ -291,12 +294,13 @@ export default function SesionesEntrenamientoSection() {
 
         {/* Tarea 4 - Juego de superioridad numérica por zonas */}
         <article className="flex flex-col gap-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-6 md:flex-row md:p-8">
-          <div className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-black md:w-1/2 aspect-[4/3]">
+          <div className="w-full md:w-1/2 flex justify-center items-center">
             <Image
               src="/entrenamientos/entrenamiento4.png"
-              alt="Ejercicio 11 vs 11 11 superioridad numérica zonal"
-              fill
-              className="object-cover"
+              alt="Ejercicio 11 vs 11 ߑ11 superioridad numérica zonal"
+              width={900}
+              height={600}
+              className="w-full h-auto rounded-xl border border-slate-800 bg-black object-contain"
             />
           </div>
 
