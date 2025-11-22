@@ -1,11 +1,12 @@
 export default function TrayectoriaSection() {
 	return (
 		<section id="trayectoria" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
-			<h2 className="text-xl font-semibold text-slate-50">Trayectoria de Juan Pablo &apos;Chicho&apos; Vogliotti</h2>
+			<h2 className="text-xl font-semibold text-slate-50">Trayectoria de Juan Leandro &apos;Chicho&apos; Vogliotti</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Mi recorrido como futbolista y entrenador se fue construyendo en distintos contextos de Sudamérica,
-				lo que me permitió entender las demandas reales del juego, las presiones del resultado y las
-				diferentes formas de vivir el fútbol en nuestra región.
+				Nacido en Río Cuarto, Córdoba, el 25 de abril de 1985, desarrollé mi carrera como delantero profesional en
+				equipos de los torneos de ascenso de Argentina y en la Primera División de Bolivia, con pasos también por
+				ligas de Haití, Colombia y Venezuela. Esa experiencia en contextos muy distintos hoy nutre mi mirada como
+				entrenador.
 			</p>
 			<div className="grid gap-6 text-sm text-slate-300 sm:grid-cols-2 lg:grid-cols-4">
 				<div className="space-y-3">

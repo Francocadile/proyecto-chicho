@@ -9,15 +9,16 @@ export default function Hero() {
 						Presentación oficial
 					</p>
 					<h1 className="text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl md:text-6xl">
-						Juan Pablo &apos;Chicho&apos; Vogliotti
+						Juan Leandro &apos;Chicho&apos; Vogliotti
 					</h1>
 					<p className="mx-auto max-w-2xl text-sm text-slate-300 sm:mx-0 sm:text-base">
+						Exdelantero profesional y actual entrenador de fútbol argentino, nacionalizado boliviano.
 						Esta página presenta mi Proyecto Integral Futbolístico: mi modelo de juego, mi metodología de
 							entrenamiento y mi forma de trabajar junto a los clubes que me confían su primer equipo.
 					</p>
 					<p className="mx-auto max-w-2xl text-sm text-slate-300 sm:mx-0 sm:text-base">
 						Mi compromiso es darle al equipo una identidad clara, revalorizar el plantel y competir al
-							máximo nivel posible en cada torneo, respetando la historia y la realidad de cada club.
+							máximo nivel posible en cada torneo, respetando la historia y la realidad de cada institución.
 					</p>
 					<div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-start">
 						<a
