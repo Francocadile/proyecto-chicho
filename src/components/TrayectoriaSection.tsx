@@ -3,7 +3,7 @@ export default function TrayectoriaSection() {
 		<section id="trayectoria" className="space-y-6 border-t border-slate-800 py-16 md:py-20">
 			<h2 className="text-xl font-semibold text-slate-50">Trayectoria de Juan Leandro &apos;Chicho&apos; Vogliotti</h2>
 			<p className="max-w-3xl text-sm text-slate-300 sm:text-base">
-				Nacido en Río Cuarto, Córdoba, el 25 de abril de 1985, desarrollé mi carrera como delantero profesional en
+				Nacido en Río Cuarto, Córdoba, el 11 de abril de 1985, desarrollé mi carrera como delantero profesional en
 				equipos de los torneos de ascenso de Argentina y en la Primera División de Bolivia, con pasos también por
 				ligas de Haití, Colombia y Venezuela. Esa experiencia en contextos muy distintos hoy nutre mi mirada como
 				entrenador.
@@ -21,7 +21,7 @@ export default function TrayectoriaSection() {
 					<ul className="list-disc space-y-1 pl-4">
 						<li>Talleres de Córdoba</li>
 						<li>Quilmes Atlético Club</li>
-						<li>Racing de Córdoba</li>
+						<li>Racing Club (Avellaneda)</li>
 					</ul>
 				</div>
 				<div className="space-y-3">

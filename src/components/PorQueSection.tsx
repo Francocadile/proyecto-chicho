@@ -48,8 +48,8 @@ export default function PorQueSection() {
 				<div className="mx-auto w-full max-w-xs md:max-w-sm">
 					<div className="relative w-full aspect-[3/4] overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
 						<Image
-							src="/chicho/chicho10.jpg"
-							alt="Cuerpo técnico trabajando en campo"
+							src="/chicho/chicho12.jpg"
+							alt="Juan Leandro 'Chicho' Vogliotti durante una sesión de trabajo en campo"
 							fill
 							className="object-cover"
 							style={{ objectPosition: "30% center" }}

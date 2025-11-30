@@ -5,7 +5,7 @@ import TrabajoSection from "@/components/TrabajoSection";
 import ModeloSection from "@/components/ModeloSection";
 import SesionesEntrenamientoSection from "@/components/SesionesEntrenamientoSection";
 import PorQueSection from "@/components/PorQueSection";
-import PrincipiosSection from "@/components/PrincipiosSection";
+import PrincipiosSection from "@/components/PrincipiosSectionWithImage";
 import TrayectoriaSection from "@/components/TrayectoriaSection";
 import MisionSection from "@/components/MisionSection";
 import ContactoSection from "@/components/ContactoSection";
