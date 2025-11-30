@@ -101,13 +101,18 @@ export default function PlanificacionSemanalSection() {
           Semana tipo alrededor del partido
         </h4>
         {/* Mobile: carrusel horizontal */}
-        <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 md:hidden">
-          {etapas.map((etapa) => (
-            <div
-              key={etapa.label}
-              className="min-w-[240px] snap-start rounded-xl border border-slate-700 bg-[#1b2a41]/80 p-4 shadow-sm shadow-black/30"
-            >
-              <div className="mb-3 flex items-center gap-2">
+        <div className="relative md:hidden">
+          {/* Scroll hints */}
+          <div className="pointer-events-none absolute left-0 top-0 h-full w-5 bg-gradient-to-r from-[#141b2b] to-transparent" />
+          <div className="pointer-events-none absolute right-0 top-0 h-full w-5 bg-gradient-to-l from-[#141b2b] to-transparent" />
+
+          <div className="flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 px-1">
+            {etapas.map((etapa) => (
+              <div
+                key={etapa.label}
+                className="min-w-[280px] snap-center rounded-2xl border border-slate-700/70 bg-[#1b2a41]/80 p-5 shadow-lg shadow-black/40"
+              >
+                <div className="mb-3 flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#f2c14e]/10 ring-1 ring-[#f2c14e]/60">
                   {/* Icono simple: círculo con punto central */}
                   <svg viewBox="0 0 24 24" className="h-4 w-4 text-[#f2c14e]" aria-hidden="true">
@@ -115,26 +120,27 @@ export default function PlanificacionSemanalSection() {
                     <circle cx="12" cy="12" r="3" fill="currentColor" />
                   </svg>
                 </div>
-                <span className="text-xs font-semibold uppercase tracking-wide text-slate-300">
-                  {etapa.label}
-                </span>
+                  <span className="text-xs font-semibold uppercase tracking-wide text-slate-300">
+                    {etapa.label}
+                  </span>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-base font-semibold text-slate-50">{etapa.titulo}</p>
+                  <p className="text-[0.8rem] leading-snug text-slate-300">
+                    <span className="font-semibold text-slate-200">Objetivo: </span>
+                    {etapa.objetivo}
+                  </p>
+                  <p className="text-[0.8rem] leading-snug text-slate-300">
+                    <span className="font-semibold text-slate-200">Contenidos clave: </span>
+                    {etapa.contenidos}
+                  </p>
+                </div>
               </div>
-              <div className="space-y-1">
-                <p className="text-sm font-semibold text-slate-50">{etapa.titulo}</p>
-                <p className="text-xs text-slate-300">
-                  <span className="font-semibold text-slate-200">Objetivo: </span>
-                  {etapa.objetivo}
-                </p>
-                <p className="text-xs text-slate-300">
-                  <span className="font-semibold text-slate-200">Contenidos clave: </span>
-                  {etapa.contenidos}
-                </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
         {/* Desktop: grid estático */}
-        <div className="hidden md:grid md:grid-cols-7 md:gap-4">
+        <div className="hidden md:grid md:grid-cols-7 md:gap-6 xl:gap-8">
           {etapas.map((etapa) => (
             <div
               key={etapa.label}
