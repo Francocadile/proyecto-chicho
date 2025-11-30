@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
 	return (
-		<section className="pt-10 sm:pt-16">
+		<section id="inicio" className="border-t border-slate-800 pt-10 sm:pt-16 md:py-20">
 			<div className="flex flex-col items-center gap-10 sm:flex-row sm:items-start sm:justify-between">
 				<div className="order-2 w-full space-y-8 text-center sm:order-1 sm:max-w-xl sm:text-left">
 					<p className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-400">
