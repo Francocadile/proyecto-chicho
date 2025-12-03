@@ -75,24 +75,6 @@ export default function TrayectoriaSection() {
 					</div>
 				</div>
 
-				{/* Galería de fotos de trayectoria */}
-				<div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-					{[14, 15, 16, 17].map((num) => (
-						<div
-							key={num}
-							className="relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg shadow-black/30 transition-transform duration-200 hover:scale-[1.03]"
-						>
-							<Image
-								src={`/chicho/chicho${num}.jpg`}
-								alt={`Juan Leandro "Chicho" Vogliotti en su etapa como jugador profesional (${num})`}
-								fill
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-								className="object-cover"
-							/>
-						</div>
-					))}
-				</div>
-
 				{/* Grid de clubes / países */}
 				<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 					{trayectoriaColumns.map((column) => (
@@ -118,6 +100,53 @@ export default function TrayectoriaSection() {
 							</ul>
 						</article>
 					))}
+				</div>
+
+				{/* Galería profesional de fotos como jugador */}
+				<div className="mt-10 motion-safe:animate-[fadeInUpSoft_0.8s_ease-out]">
+					<div className="space-y-3">
+						<h3 className="text-sm font-semibold uppercase tracking-wide text-slate-400">
+							Imágenes de mi etapa como jugador
+						</h3>
+						<div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+							<div className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900/60 shadow-lg shadow-black/40">
+								<Image
+									src="/chicho/chicho14.jpg"
+									alt="Juan Leandro 'Chicho' Vogliotti en acción como jugador (1)"
+									fill
+									className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+								/>
+								<div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-70" />
+							</div>
+							<div className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900/60 shadow-lg shadow-black/40">
+								<Image
+									src="/chicho/chicho15.jpg"
+									alt="Juan Leandro 'Chicho' Vogliotti en acción como jugador (2)"
+									fill
+									className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+								/>
+								<div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-70" />
+							</div>
+							<div className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900/60 shadow-lg shadow-black/40">
+								<Image
+									src="/chicho/chicho16.jpg"
+									alt="Juan Leandro 'Chicho' Vogliotti en acción como jugador (3)"
+									fill
+									className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+								/>
+								<div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-70" />
+							</div>
+							<div className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900/60 shadow-lg shadow-black/40">
+								<Image
+									src="/chicho/chicho17.jpg"
+									alt="Juan Leandro 'Chicho' Vogliotti en acción como jugador (4)"
+									fill
+									className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+								/>
+								<div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-70" />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
