@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const trayectoriaColumns = [
 	{
@@ -72,6 +73,24 @@ export default function TrayectoriaSection() {
 							entrenador.
 						</p>
 					</div>
+				</div>
+
+				{/* Galería de fotos de trayectoria */}
+				<div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+					{[14, 15, 16, 17].map((num) => (
+						<div
+							key={num}
+							className="relative aspect-[4/5] overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg shadow-black/30 transition-transform duration-200 hover:scale-[1.03]"
+						>
+							<Image
+								src={`/chicho/chicho${num}.jpg`}
+								alt={`Juan Leandro "Chicho" Vogliotti en su etapa como jugador profesional (${num})`}
+								fill
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+								className="object-cover"
+							/>
+						</div>
+					))}
 				</div>
 
 				{/* Grid de clubes / países */}
